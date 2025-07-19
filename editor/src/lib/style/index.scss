@@ -1,0 +1,41 @@
+@use "reset";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+  font-family: Inter, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --bg-clr: hsl(0, 0%, 98%);
+  --sec-bg-clr: hsl(216, 60%, 50%);
+  --input-color: hsl(0, 0%, 92%);
+  --input-selected-color: hsl(0, 0%, 88%);
+  --input-disabled-color: hsl(0, 0%, 85%);
+  --txt-clr: hsl(0, 0%, 4%);
+  --sec-txt-clr: hsl(0, 0%, 90%);
+  --primary-color: hsl(216, 100%, 50%);
+  --error-color: hsl(12, 100%, 33%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-clr);
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.v-ruler {
+  height: 100%;
+  width: .5px;
+  display: inline-block;
+  color: inherit;
+  background-color: currentcolor;
+  margin-inline: .25em;
+  padding: 0;
+}
