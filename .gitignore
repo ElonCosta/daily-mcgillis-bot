@@ -1,3 +1,8 @@
 /target
 
 agent_auth.json
+
+.env
+
+/db
+/images
